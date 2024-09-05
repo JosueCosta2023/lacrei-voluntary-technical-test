@@ -1,1 +1,1 @@
-## Teste técnicno Lacrei Saúde 2024
+## Teste técnico Lacrei Saúde 2024
