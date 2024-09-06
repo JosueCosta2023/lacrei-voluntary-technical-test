@@ -24,19 +24,20 @@ const Home = () => {
     },
   ]
 
-
   return (
-    <div>
+    <>
         <Header/>
         <MainContainer>
           {
             dataButtons.map((data, index) => (
-              <Buttons key={index} href={data.href} label={data.label} newTab={data.newTab}/>
+              <StyledButtonPersonality key={index}>
+                <Buttons href={data.href} label={data.label} newTab={data.newTab}/>
+              </StyledButtonPersonality>
             ))
           }
         </MainContainer>
         <Footer/>
-    </div>
+    </>
   )
 }
 
@@ -51,4 +52,10 @@ const MainContainer = styled.main`
   height: 60vh;
   gap: 20px;
 
+`
+
+const StyledButtonPersonality = styled.div`
+  width: 30%;
+  height: 45px;
+  display: flex;
 `

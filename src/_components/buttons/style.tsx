@@ -2,10 +2,9 @@ import styled from "styled-components";
 
 
 const StyledButton = styled.a`
-    width: 30%;
-    height: 45px;
+    min-width: 100%;
+    height: 100%;
     text-align: center;
-    line-height: 45px;
     background-color: green;
     color: white;
     font-weight: bold;
@@ -13,6 +12,7 @@ const StyledButton = styled.a`
     border-radius: 8px;
     text-decoration: none;
     font-size: 16px;
+    line-height: 45px;
 
     &:hover{
         background-color: white;
