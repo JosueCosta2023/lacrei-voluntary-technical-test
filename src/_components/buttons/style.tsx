@@ -5,10 +5,10 @@ const StyledButton = styled.a`
     min-width: 100%;
     height: 100%;
     text-align: center;
-    background-color: green;
+    background-color: #018762;
     color: white;
     font-weight: bold;
-    border: 2px solid green;
+    border: 2px solid #018762;
     border-radius: 8px;
     text-decoration: none;
     font-size: 16px;
@@ -16,8 +16,8 @@ const StyledButton = styled.a`
 
     &:hover{
         background-color: white;
-        color: green;
-        border: 2px solid green;
+        color: #018762;
+        border: 2px solid #018762;
     }
 `
 
