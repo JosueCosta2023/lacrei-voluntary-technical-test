@@ -55,7 +55,8 @@ const MainContainer = styled.main`
 `
 
 const StyledButtonPersonality = styled.div`
-  width: 30%;
+  width: 250px;
+  max-width: 50%;
   height: 45px;
   display: flex;
 `

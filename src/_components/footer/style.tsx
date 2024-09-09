@@ -14,6 +14,11 @@ const StyledFooter = styled.footer`
         gap: 140px;
         border-bottom: 2px solid #018762;
         padding-bottom: 48px;
+
+        @media(max-width:1000px){
+            flex-wrap: wrap;
+            justify-content: center;
+        }
     }
 `
 
@@ -47,6 +52,10 @@ const StyledLogo = styled.div`
 const StyledListContact = styled.div`
     display: flex;
     gap: 110.5px;
+    @media(max-width:1000px){
+            flex-wrap: wrap;
+            justify-content: center;
+    }
 `
 
 const StyledListItem = styled.div`
@@ -70,6 +79,10 @@ const StyledListItem = styled.div`
             font-size: 16px;
             line-height: 24px;
             color: #2d2d2d;
+            cursor: pointer;
+            & :hover{
+                text-decoration: underline;
+            }
             
         }
     }
@@ -84,6 +97,20 @@ const StyledListItem = styled.div`
 
     &:nth-child(3) {
     width: 205px; /* Definir largura específica para o terceiro item */
+    }
+
+    @media(max-width:1000px){
+    &:nth-child(1) {
+    width: 90%; /* Definir largura específica para o primeiro item */
+    }
+
+    &:nth-child(2) {
+    width:90%; /* Definir largura específica para o segundo item */
+    }
+
+    &:nth-child(3) {
+    width: 90%; /* Definir largura específica para o terceiro item */
+    }
     }
     
 `
@@ -118,6 +145,25 @@ const StyledFooterMSG = styled.div`
         justify-content: center;
         cursor: pointer;
         box-shadow: 1px 7px 5px #00000052;
+    }
+
+    @media(max-width: 1000px){
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+
+
+        p:nth-of-type(1) {
+        display: none;
+    }
+
+        p:nth-of-type(2) {
+        display: none;
+    }
+
+    span{
+        display: none;
+    }
     }
     
 `
