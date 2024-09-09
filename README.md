@@ -62,7 +62,7 @@ Para rodar os testes, use o comando:
 - Facebook - [JosueCosta](https://www.facebook.com/JosueOcanhaCosta2023)
 - Whatsapp - [Josue2023](https://wa.me/5565996408371?text=Ol%C3%A1%2C+encontrei+seu+whatsapp+no+Github.+Gostaria+de+falar+sobre+seus+projetos.)
 
-- Deploy do sistema - [Website Lacrei Saúde](https://test-hypesoft-josue-august-2024.vercel.app/)
+- Deploy do sistema - [Website Lacrei Saúde](https://lacrei-voluntary-technical-test.vercel.app/)
 
 # "Vida longa e próspera. 🖖🖖🖖"
 
