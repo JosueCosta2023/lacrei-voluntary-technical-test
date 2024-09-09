@@ -6,7 +6,7 @@ interface ButtonProps {
   label: string;
   newTab?: boolean;
 }
-const Buttons: React.FC<ButtonProps> = ({ href, label, newTab = false }) => {
+const Buttons: React.FC<ButtonProps> = ({ href, label, newTab}) => {
   return (
     <StyledButton
       href={href}
